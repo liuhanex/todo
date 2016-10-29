@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>My Todo</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/base.css" />
+</head>
+<body>
+
+<div class="container">
+    <h1>我的Todo</h1>
+    <form class="add-task clearfix">
+        <input name="content" type="text" placeholder="e.g.学习JavaScript"/>
+        <button type="submit">确定</button>
+    </form>
+    <div class="tasks-list">
+        <div class="task-item">
+            <span><input type="checkbox" /></span>
+            <span class="task-content">item content 1</span>
+            <span>delete</span>
+            <span>detail</span>
+        </div>
+        <div class="task-item">
+            <span><input type="checkbox" /></span>
+            <span class="task-content">item content 1</span>
+            <span>delete</span>
+            <span>detail</span>
+        </div>
+        <div class="task-item">
+            <span><input type="checkbox" /></span>
+            <span class="task-content">item content 1</span>
+            <span>delete</span>
+            <span>detail</span>
+        </div>
+        <div class="task-item">
+            <span><input type="checkbox" /></span>
+            <span class="task-content">item content 1</span>
+            <span>delete</span>
+            <span>detail</span>
+        </div>
+        <div class="task-item">
+            <span><input type="checkbox" /></span>
+            <span class="task-content">item content 1</span>
+            <span>delete</span>
+            <span>detail</span>
+        </div>
+    </div>
+    <div class="task-detail-mask"></div>
+    <div class="task-detail">
+        <div class="content">学习JavaScript</div>
+        <div>
+            <div class="desc">
+                <textarea id="" cols="30" rows="10"></textarea>
+            </div>
+        </div>
+        <div class="remind">
+            <input type="date" />
+            <!--<button type="submit">submit</button>-->
+        </div>
+    </div>
+</div>
+
+<script src="js/lib/jquery.min.js"></script>
+<script src="js/lib/store.min.js"></script>
+<script src="js/base.js"></script>
+</body>
+</html>

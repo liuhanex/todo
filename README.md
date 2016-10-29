@@ -1,2 +1,2 @@
 # todo
-practice
+A simple practice
